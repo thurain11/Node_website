@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main {
+    padding: 1rem;
+}
+
+.main-header {
+    width: 100%;
+    height: 3.5rem;
+    background-color: rgba(11, 107, 67, 0.89);
+    padding: 0 1.5rem;
+}
+
+.main-header__nav {
+    align-items: center;
+    height: 100%;
+    display: flex;
+}
+
+.main-header__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-header__item {
+    margin: 0 1rem;
+    padding: 0;
+}
+
+.main-header__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-header__item a:hover,
+.main-header__item a:active,
+.main-header__item a.active {
+    color: rgba(218, 211, 224, 0.973);
+}
+.form-control label,
+.main-header input{
+    display: block;
+    
+
+}
+.form-control{
+    margin: 1rem 0;
+}
+.form-control input{
+    boder: 1px solid rgb(19, 184, 82);
+    font: inherit;
+    border-radius: 2px;
+}
+.product-form{
+    max-width: 90%;
+    width: 20rem;
+    margin: auto;
+}
+button{
+    font:inherit;
+    border: 1px solid gray;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: .4rem .4rem;
+}
+button:hover,
+button:active{
+    background: indigo;
+    color: white;
+     
+}
